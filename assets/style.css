@@ -1,0 +1,22 @@
+/* universal style */
+
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+/* classs selectors */
+body {
+    color: brown;
+
+    background-color: beige;
+}
+
+.bg-green{
+    color: white;
+
+    background-color: forestgreen;
+
+}
