@@ -1,24 +1,145 @@
 /* universal style */
-
-*{
-    
+body{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-
-/* edit for practice */
-
-/* classs selectors */
 body {
-    color: brown;
+    color: #4f4847;
 
-    background-color: beige;
+    background-color: #fdf8f5;
 }
 
-.bg-green{
-    color: white;
 
-    background-color: forestgreen;
+/* header*/
+
+h1,h2,h3{
+
+display: inline-block;
+font-size: 20px; 
+font-weight: 100;
+padding: 10px;
+margin-top: 0;
+
+}
+
+
+header{
+    color: white;
+    background-color: #266150;
+
+    position:fixed;
+   
+    text-align:end;
+    width: 100%;
+    height: 50px;
+    z-index: 99;
+    top:0;
+    
+    border-bottom: 10px solid #e8cebf;
+    
+}
+
+
+
+/* image section position */
+
+#inbox {
+
+    font-size: 40px;
+    font-weight: bold;
+    margin: 30px;
+
+}
+
+#welcome {
+    
+    font-weight:700;
+
+    
+
+}
+
+
+.img-container {
+    position: relative;
+    display: block;
+    text-align: center;
+    bottom: -50px;
+    margin:5px;
+  
+
+
+}
+
+/* contact section */
+
+.area-section{
+
+    position: relative;
+    border: 15px solid #e8cebf;
+    background-color: #e8cebf;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+.contact-form{
+
+
+    position: relative;
+    border: 5px solid #ddaf94;
+
+    width:300px;
+    margin: 20px auto;
+    padding: 5px;
+    text-align: center;
+    
+  
+}
+
+/* header for contact me form */
+h5{
+
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px auto;
+
+
+}
+
+/* Text rework for email and name */
+h6{
+
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px;
+
+}
+
+
+
+
+/* bottom page*/
+
+.bottom-green{
+    position: relative;
+    color: white;
+    text-align: center;
+
+    font-size: 10px;
+
+    padding: 5px;
+    margin-bottom: 400px;
+    border: 5px solid #266150;
+    background-color: #266150;
+    border-bottom: 5px solid #4f4847;
+    bottom: 0;
+
+  
+ 
 
 }
